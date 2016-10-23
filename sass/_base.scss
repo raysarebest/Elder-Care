@@ -1,0 +1,10 @@
+@-ms-viewport{
+    width: device-width;
+}
+$red: #ec1c23 !default;
+$dark-gray: #363636 !default;
+
+@mixin full-size{
+    height: 100%;
+    width: 100%;
+}

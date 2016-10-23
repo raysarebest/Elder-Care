@@ -1,0 +1,30 @@
+@import "base";
+@import "compass/css3/box-shadow";
+@import "compass/css3/flexbox";
+@import "compass/css3/border-radius";
+
+html{
+    background: $dark-gray;
+    @include full-size;
+}
+
+body{
+    @include full-size;
+    @include display-flex;
+    @include flex-direction(column);
+    justify-content: center;
+}
+
+.placeholder{
+    background: #fff;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    $shadow-size: 5px;
+    @include single-box-shadow(0, 0, $shadow-size * 10, $shadow-size, #000, null);
+    @include border-radius(2px);
+}
+
+h1{
+    color: $red;
+}

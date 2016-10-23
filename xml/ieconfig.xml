@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--A great place to start to interpert all of this is http://msdn.microsoft.com/en-us/library/ie/dn455106.aspx -->
+<browserconfig>
+  <msapplication>
+    <tile>
+      <!--The image here must be at least 56px x 56px, but the recommended size is 128px x 128px. The maximum size you can use is 1024px x 1024px-->
+      <square70x70logo src="img/smalltile.png"/>
+      <!--This image must be at least 120px x 120px, but the recommended size is 270px x 270px. The maximum available size is 1024px x 1024px-->
+      <square150x150logo src="img/mediumtile.png"/>
+      <!--The image referenced in the below tag must be at least 280px x 120px, but the recommended size is 558px x 270px. The maximum possible size is 1024px x 1024px-->
+      <wide310x150logo src="img/widetile.png"/>
+      <!--The image for the largest tile size must be at least 310px x 310px, but the recommended size is 558px x 558px-->
+      <square310x310logo src="img/largetile.png"/>
+      <!--You can define the background color for the tile with a hex value in this next tag-->
+      <TileColor>#E3984D</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
